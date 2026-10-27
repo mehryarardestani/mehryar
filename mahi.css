@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "yekan";
+    src: url("Yekan.ttf");
+}
+
+body {
+    background-image: url('imges/bg.jpg');
+    direction: rtl;
+    font-family: "yekan";
+}
+
+header {
+    background-color: #ffffff11;
+    display: flex;
+    margin: 50px;
+}
+
+.profile {
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+
+.info {
+    gap: 200px;
+    padding: 30px;
+    background-color: #fff;
+    width: 100%;
+}
+
+.about {
+    display: flex;
+    gap: 200px;
+}
+
+.about img {
+    width: 300px;
+    
+}
+
+.info .me button {
+    width: 130px;
+    height: 40px;
+    background-color: #fff;
+    font-family: "yekan";
+    border-radius: 10px;
+}
+
+.info .me button:hover {
+    background-color: #3665d1;
+    color: #fff;
+}
+
+/* menu */
+.menu {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+}
+
+.menu i {
+    color: #888;
+    font-size: 26px;
+    padding: 15px;
+}
+
+.menu i:hover {
+    color: #3665d1;
+}
+
+/* skills */
+.skills .box1 {
+    height: 20px;
+    background-color: #eee;
+    border-radius: 20px;
+}
+
+.skills .box2 {
+    height: 20px;
+    background-color: #3665d1;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.tamas {
+    margin-top: 100px;
+}
+
+.tamas form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+form input {
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+form button {
+    width: 140px;
+    height: 40px;
+    background-color: #3665d1;
+    color: #fff;
+    font-family: yekan;
+    border-radius: 10px;
+    border: none;
+}
